@@ -1,5 +1,6 @@
 <?php
-/* menampilkan huruf tengah dengan kondisi
+/* Soal 7 Kyu
+    menampilkan huruf tengah dengan kondisi
     kalau ukuran huruf itu jumlah ganjil tampilkan 1 karakter yang ditengah huruf
     kalau ukuran huruf itu jumlah genap, tampilkan 2 karakter yang ditengah huruf
 */
