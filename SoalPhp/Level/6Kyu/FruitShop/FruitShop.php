@@ -24,15 +24,13 @@
     $arr = ['63a21b'];
 
     function fruit_pack($orders) {
-
         foreach ($orders as $value) {
             $rakKotak = '';
             $rakPalet = '';
             $rakTas = '';
             $patern = "/[0-9]+[a-z]?/"; // bahan pola untuk mencocokkan subjek bertipe string
-
             preg_match_all(
-                "/[0-9]+[a-z]?/",  // meletakkan pola yang akan dicocokkan kedalam subject
+                $patern,  // meletakkan pola yang akan dicocokkan kedalam subject
                 $value,  // menjadi sumber subjek yang akan dicocokkan karena telah dikeluarkan dari array
                 $matches // nilai yang telah dicocokkan dari pola yang diberikan dan mengembalikan bertipe array
             ); 
